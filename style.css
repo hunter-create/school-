@@ -1,0 +1,49 @@
+body /*/ the body changes the main part of our page/*/
+{
+    background-color: tan;
+    text-align: center;
+}
+/*/ h1 changes our header/*/
+h1
+{
+    text-align: center;
+}
+/*/ these last 4 are all of our identifiers or id's we gave to our code previously so we could style those as well/*/
+#myButton
+{
+    font-size: 25px;
+    border-radius: 15px;
+}
+#myLabel
+{
+    font-size: 2em;
+}
+#Buttons
+{
+    border-radius: 15px;
+    font-size: 20px;
+    border-color: bisque;
+    
+}
+#header2
+{
+    font-size: 20px;
+    text-decoration-line:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
