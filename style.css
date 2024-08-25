@@ -1,49 +1,98 @@
-body /*/ the body changes the main part of our page/*/
+*
 {
-    background-color: tan;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:"poppins", sans-serif;
+
+}
+body
+{
+    background-color: aquamarine;
+}    
+.container
+{
+    width: 90%;
+    max-width: 31.25em;
+    background-color: #ffffff;
+    padding: 4em 3em;
+    border-radius: 0.5em;
+    box-shadow: 0 2em 3.5em rgba(0, 9, 50, 0.3);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.app-title
+{
+    color: black;
+    font-size: 1.6em;
+}
+.input-wrapper
+{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    margin: 2em 0 1em 0;
+}
+input
+{
+    border: none;
+    border-bottom: 2px solid white;
+    color: black;
+    padding: 1em 0;
+    font-weight: 400;
+    font-size: 1em;
+}
+input.focus
+{
+    border-bottom: 2px solid aquamarine;
+}
+button
+{
+    font-size: 1em;
+    padding: 1em 0.5em;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+p
+{
     text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    transition: 0.5s;
 }
-/*/ h1 changes our header/*/
-h1
+p span
 {
-    text-align: center;
+    font-weight: 500;
+    font-style: italic;
 }
-/*/ these last 4 are all of our identifiers or id's we gave to our code previously so we could style those as well/*/
-#myButton
+.success
 {
-    font-size: 25px;
-    border-radius: 15px;
+    background-color: rgb(59, 168, 25);
+    animation: pop 0.4s;
 }
-#myLabel
+.error
 {
-    font-size: 2em;
+    background-color: red;
+    animation: pop 0.4s;
 }
-#Buttons
+@keyframes pop
 {
-    border-radius: 15px;
-    font-size: 20px;
-    border-color: bisque;
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+
     
-}
-#header2
-{
-    font-size: 20px;
-    text-decoration-line:underline;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
